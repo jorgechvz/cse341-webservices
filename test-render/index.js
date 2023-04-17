@@ -1,3 +1,5 @@
-var superheroes = require('superheroes');
+var express = require('express');
 
-console.log(superheroes.random());
+app.listen(3000, () => {
+    console.log("Server is running in port 3000");
+})
